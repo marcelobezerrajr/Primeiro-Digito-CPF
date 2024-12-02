@@ -9,7 +9,11 @@ Este é um script simples em Python que calcula o primeiro dígito verificador d
 
 ## Como Funciona
 
-- Extração dos Nove Primeiros Dígitos: O CPF fornecido é dividido em duas partes: os nove primeiros dígitos (os dígitos originais do CPF). Cálculo do Dígito Verificador: Cada um dos nove dígitos é multiplicado por um peso, que varia de 10 a 2, respectivamente. Os resultados dessas multiplicações são somados. Obtenção do Resto da Divisão: O total da soma é dividido por 11, e é obtido o resto da divisão. Verificação do Dígito Calculado: Se o resto da divisão for menor ou igual a 9, esse valor se torna o primeiro dígito verificador. Caso contrário, o primeiro dígito verificador é 0.
+- **Extração dos Nove Primeiros Dígitos:** O CPF fornecido é dividido em duas partes: os nove primeiros dígitos (os dígitos originais do CPF). 
+- **Cálculo do Dígito Verificador:** Cada um dos nove dígitos é multiplicado por um peso, que varia de 10 a 2, respectivamente. Os resultados dessas multiplicações são somados.
+- **Obtenção do Resto da Divisão:** O total da soma é dividido por 11, e é obtido o resto da divisão. 
+- **Verificação do Dígito Calculado:** Se o resto da divisão for menor ou igual a 9, esse valor se torna o primeiro dígito verificador. Caso contrário, o primeiro dígito verificador é 0.
+
 ## Como Utilizar
 
 - Para utilizar o script, basta fornecer um CPF válido no formato de nove dígitos. O script calculará o primeiro dígito verificador correspondente
